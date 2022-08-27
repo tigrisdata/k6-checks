@@ -4,7 +4,13 @@ Set of checks that are run through [k6](https://k6.io/docs/).
 
 ## Installation
 
-Install k6 by following the instructions available
+Install k6 on macOS as follows
+
+```shell
+brew install k6
+```
+
+For other platforms check the instructions available
 [here](https://k6.io/docs/getting-started/installation/).
 
 Set up the npm project
