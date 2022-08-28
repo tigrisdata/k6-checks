@@ -27,11 +27,17 @@ as follows:
 Run the HTTP health check
 
 ```shell
-k6 run src/https-healthcheck.js
+k6 run src/https/healthcheck.js
 ```
 
 Run the gRPC health check
 
 ```shell
-k6 run src/grpc-healthcheck.js
+k6 run src/grpc/healthcheck.js
+```
+
+### Running authenticated checks
+
+```shell
+k6 run -e AUTH_TOKEN=xxx src/https/list-databases.js
 ```
