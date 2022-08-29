@@ -10,7 +10,7 @@ export const options = {
 };
 
 const client = new grpc.Client();
-client.load(["../includes/api"], "server/v1/health.proto");
+client.load(["../../includes/api"], "server/v1/health.proto");
 
 export default () => {
   const url = "api.preview.tigrisdata.cloud:443";
