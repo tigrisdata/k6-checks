@@ -10,7 +10,7 @@ export const options = {
 };
 
 export default function () {
-  const url = "https://api.preview.tigrisdata.cloud/api/v1/databases/list";
+  const url = "https://api.preview.tigrisdata.cloud/v1/databases/list";
   const token = `Bearer ${__ENV.AUTH_TOKEN}`;
   const params = {
     headers: {
