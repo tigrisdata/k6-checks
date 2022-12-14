@@ -10,7 +10,7 @@ export const options = {
 };
 
 export default function () {
-  const url = "https://api.preview.tigrisdata.cloud/api/v1/health";
+  const url = "https://api.preview.tigrisdata.cloud/v1/health";
 
   check(http.get(url), {
     "status is 200": (r) => r.status === 200,
